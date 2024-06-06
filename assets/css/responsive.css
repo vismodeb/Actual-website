@@ -68,6 +68,22 @@
   .singleCustomerReviews h4 {
     height: 200px;
   }
+  .servicesAreaContain {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .servicesWeOffer {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 90px 60px;
+  }
+  .serviceOliBeing {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .servicesWeOffer ul li {
+    font-size: 34px;
+    line-height: 52.32px;
+  }
 }
 
 @media all and (min-width: 992px) {
@@ -237,6 +253,14 @@
   .heading {
     padding: 38px 0 30px;
   }
+  .serviceOliBeing {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text_38,
+  .servicesWeOffer ul li {
+    font-size: 30px;
+    line-height: 50.32px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -295,6 +319,14 @@
   .singleCustomerReviews h4 {
     height: 168px;
   }
+  .servicesWeOffer {
+    padding: 30px 24px 60px;
+  }
+  .text_38,
+  .servicesWeOffer ul li {
+    font-size: 28px;
+    line-height: 44.32px;
+  }
 }
 
 @media all and (max-width: 575px) {
@@ -341,6 +373,13 @@
   .ourWork {
     grid-template-columns: repeat(1, 1fr);
     gap: 28px;
+  }
+  .serviceOliBeing {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .oilBoxTex,
+  .oilBox {
+    max-width: 100%;
   }
 }
 

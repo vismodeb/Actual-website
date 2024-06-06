@@ -387,6 +387,55 @@ a {
 ***************************************/
 .servicesArea {
   background: url(../images/s-banner.png) no-repeat scroll center center / cover;
+  border-bottom: 12px solid #000000;
+}
+.servicesAreaContain {
+  padding: 52px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.servicesWeOffer {
+  width: 100%;
+  max-width: 560px;
+  padding: 30px 18px 60px;
+  background: #f1f1f194;
+}
+.servicesWeOffer h2 {
+  color: #e84444;
+  margin-bottom: 40px;
+}
+.servicesWeOffer ul li {
+  font-size: 38px;
+  line-height: 56.32px;
+  list-style: disc;
+  margin-left: 50px;
+}
+.text_38 {
+  margin-top: 40px;
+  font-size: 38px;
+  line-height: 56.32px;
+}
+.serviceOliBeing {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.oilBox {
+  max-width: 347px;
+  border: 8px solid #e84444;
+}
+.oilBox img {
+  max-width: 400px;
+  height: 278px;
+}
+.oilBoxTex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 347px;
+  background: #e84444c4;
 }
 
 /* Start : our work area
