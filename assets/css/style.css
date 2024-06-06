@@ -279,3 +279,10 @@ a {
   list-style: disc;
   margin: 8px 0 0 40px;
 }
+
+/* Start : Start : ABOUT US area
+***************************************/
+.aboutUs p {
+  color: #ffffff;
+  margin-bottom: 100px;
+}
