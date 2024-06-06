@@ -62,6 +62,12 @@
   .ourWork {
     gap: 26px;
   }
+  .customerReviews {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .singleCustomerReviews h4 {
+    height: 200px;
+  }
 }
 
 @media all and (min-width: 992px) {
@@ -279,6 +285,15 @@
   .text_32 {
     font-size: 22px;
     line-height: 32.72px;
+  }
+  .customerReviews {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .singleCustomerReviews {
+    margin: auto;
+  }
+  .singleCustomerReviews h4 {
+    height: 168px;
   }
 }
 

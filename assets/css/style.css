@@ -252,7 +252,7 @@ a {
 /* Start : Products We Use area
 ***************************************/
 .productsWeUseArea {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   border-bottom: 12px solid #000000;
 }
 .productsWeUse {
@@ -392,7 +392,7 @@ a {
 /* Start : our work area
 ***************************************/
 .ourWorkArea {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   border-bottom: 12px solid #000000;
 }
 .ourWork {
@@ -409,4 +409,51 @@ a {
   padding: 4px 2px;
   text-align: center;
   color: #ffffff;
+}
+
+/* Start : customer reviews area
+***************************************/
+.customerReviewsArea {
+  padding-bottom: 70px;
+  border-bottom: 12px solid #000000;
+}
+.customerReviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.singleCustomerReviews {
+  width: 100%;
+  max-width: 447px;
+  padding: 20px;
+  background: #000000;
+}
+.singleCustomerReviews h4 {
+  height: 290px;
+}
+.reviewsProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+.reviweImg {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.reviweImg img {
+  max-width: 70px;
+}
+.reviewsTitleName {
+  font-size: 16px;
+  color: #ffffff;
+}
+.reviewsTitleName li {
+  list-style: disc;
+  margin-left: 30px;
+}
+.reviewsIcon {
+  font-size: 18px;
+  color: #e4b92d;
 }
