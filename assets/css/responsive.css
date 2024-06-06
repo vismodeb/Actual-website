@@ -59,6 +59,9 @@
   .contactUsBox_1 .form-group {
     width: 46%;
   }
+  .ourWork {
+    gap: 26px;
+  }
 }
 
 @media all and (min-width: 992px) {
@@ -222,6 +225,12 @@
     flex-direction: column;
     row-gap: 30px;
   }
+  .ourWork {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading {
+    padding: 38px 0 30px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -244,10 +253,6 @@
   .bannerContain h3 {
     margin-left: 36px;
   }
-  /* .text_32 {
-    font-size: 22px;
-    line-height: 30.72px;
-  } */
   .autoRepair {
     flex-direction: column;
     row-gap: 20px;
@@ -263,6 +268,17 @@
   }
   .bannerContain {
     padding: 95px 0 114px;
+  }
+  .ourWork {
+    gap: 20px;
+  }
+  .text_20 {
+    font-size: 18px;
+    line-height: 26.64px;
+  }
+  .text_32 {
+    font-size: 22px;
+    line-height: 32.72px;
   }
 }
 
@@ -287,6 +303,9 @@
   .contactUsForm {
     padding: 60px 24px 27px;
   }
+  .single_contactUsContain img {
+    max-width: 50px;
+  }
 }
 
 @media all and (max-width: 450px) {
@@ -300,6 +319,13 @@
   }
   .contactUsBox_1 .form-group {
     width: 100%;
+  }
+  .singleWork {
+    margin: auto;
+  }
+  .ourWork {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 28px;
   }
 }
 
