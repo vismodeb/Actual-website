@@ -56,6 +56,9 @@
     font-size: 24px;
     line-height: 37.5px;
   }
+  .contactUsBox_1 .form-group {
+    width: 46%;
+  }
 }
 
 @media all and (min-width: 992px) {
@@ -212,6 +215,13 @@
   .loginRegisterArea .form-control {
     padding: 0.575rem 0.75rem;
   }
+  .single_contactUsContain img {
+    max-width: 70px;
+  }
+  .contactUs {
+    flex-direction: column;
+    row-gap: 30px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -274,12 +284,22 @@
     justify-content: center;
     align-items: center;
   }
+  .contactUsForm {
+    padding: 60px 24px 27px;
+  }
 }
 
 @media all and (max-width: 450px) {
   .searchBar form {
     max-width: 230px;
     height: 36px;
+  }
+  .contactUsBox_1 {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .contactUsBox_1 .form-group {
+    width: 100%;
   }
 }
 
