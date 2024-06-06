@@ -506,3 +506,48 @@ a {
   font-size: 18px;
   color: #e4b92d;
 }
+
+/* Start : product area
+***************************************/
+.priceArea {
+  padding: 60px 0;
+}
+.priceAreaContain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.priceAreaLeft {
+  width: 100%;
+}
+.singlePriceArea {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d9d9d9;
+}
+.singlePriceArea_2 h2 {
+  width: 46%;
+  margin-top: 30px;
+  padding: 8px 16px;
+  background: #d9d9d9;
+}
+.pricBox_0 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.pricBox_0 p {
+  width: 40%;
+  height: 130px;
+  background: #d9d9d9;
+}
+.productRight h3 {
+  padding: 40px 0;
+}
+.productRight h4 {
+  margin-top: 120px;
+  padding: 10px 10px 224px 10px;
+  background: #d9d9d9;
+}

@@ -261,6 +261,11 @@
     font-size: 30px;
     line-height: 50.32px;
   }
+  .priceAreaContain {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -381,7 +386,4 @@
   .oilBox {
     max-width: 100%;
   }
-}
-
-@media all and (max-width: 390px) {
 }
