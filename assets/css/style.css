@@ -1,0 +1,281 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+/* Default Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+body {
+  font-size: 16px;
+  font-weight: 400;
+  background: #e84444;
+  font-family: "Oswald", sans-serif;
+}
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+.reboot-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.text_20 {
+  font-size: 20px;
+  line-height: 29.64px;
+}
+.text_28 {
+  font-size: 28px;
+  line-height: 41.5px;
+  color: #ffffff;
+}
+.text_32 {
+  font-size: 32px;
+  line-height: 47.72px;
+  color: #ffffff;
+}
+.text_48 {
+  font-size: 48px;
+  line-height: 71.14px;
+}
+.heading {
+  padding: 38px 0 60px;
+  text-align: center;
+}
+
+/*  main header area css start
+***************************************/
+.home_main {
+  width: 100%;
+  background: url(../images/banner.png) no-repeat scroll center center / cover;
+}
+.home_main_header_area {
+  background: rgb(0 0 0 / 41%);
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border: 1px solid #ffffff;
+}
+.main-header-area {
+  background: #802525;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border: 1px solid #ffffff;
+}
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo a {
+  display: inline-block;
+}
+.header-logo img {
+  max-width: 240px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.menu nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.login ul li a,
+.menu nav ul li a {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 35.57px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+.login ul li a::after,
+.menu nav ul li a::after,
+.login ul li a::before,
+.menu nav ul li a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -2px;
+  background: #ffffff;
+  transition: 0.5s;
+  z-index: -1;
+}
+.login ul li a::after,
+.menu nav ul li a::after {
+  left: 50%;
+}
+.login ul li a::before,
+.menu nav ul li a::before {
+  right: 50%;
+}
+.login ul li a:hover::after,
+.menu nav ul li a:hover::after {
+  width: 50%;
+  left: 0;
+}
+.login ul li a:hover::before,
+.menu nav ul li a:hover::before {
+  width: 50%;
+  right: 0;
+}
+.login ul li a:hover,
+.menu nav ul li a:hover {
+  color: #f0f0f0;
+}
+.login ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.menu-bar {
+  display: none;
+}
+
+/* Start : Banner area css
+**********************************/
+.bannerContain {
+  padding: 130px 0 180px;
+}
+
+/* -- Search Bar -- */
+.searchBar form {
+  position: relative;
+  max-width: 531px;
+  width: 100%;
+  height: 48px;
+  margin: auto;
+}
+.searchBar form input {
+  width: 100%;
+  height: 100%;
+  background: #f9fbfd;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  padding: 0 46px 0 24px;
+  font-size: 18px;
+}
+.searchBar form span {
+  position: absolute;
+  left: 20px;
+  top: 16px;
+}
+.searchBar form span img {
+  width: 18px;
+  height: auto;
+}
+.search-box .search-box-icon {
+  font-size: 14px;
+  position: absolute;
+  color: #0b2d65;
+  top: 50%;
+  right: 1.4rem;
+  -webkit-transform: translateY(-48%);
+  -ms-transform: translateY(-48%);
+  transform: translateY(-48%);
+}
+.bannerContain h2 {
+  color: #e84444;
+}
+.bannerContain h3 {
+  margin-left: 60px;
+}
+
+/* Start : auto repair area
+***************************************/
+.autoRepairArea {
+  padding: 52px 0 57px;
+  border-bottom: 12px solid rgb(0, 0, 0);
+}
+.autoRepair {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.autoRepairImg {
+  position: relative;
+}
+.autoRepairImg img {
+  max-width: 709px;
+}
+.autoRepairContain {
+  left: 40%;
+  position: absolute;
+  max-width: 685px;
+  padding: 16px 20px 60px;
+  background: #000000c2;
+}
+.autoRepairContain h6 {
+  color: #e84444;
+}
+
+/* Start : Products We Use area
+***************************************/
+.productsWeUseArea {
+  padding-bottom: 100px;
+  border-bottom: 12px solid #000000;
+}
+.productsWeUse {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.singleProduct {
+  width: 100%;
+  max-width: 340px;
+  padding: 20px 20px 80px 18px;
+  background: #000000;
+}
+.singleProduct h2 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.productCard {
+  margin-top: 28px;
+}
+.productCard li {
+  list-style: disc;
+  margin: 8px 0 0 40px;
+}
